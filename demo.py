@@ -85,7 +85,7 @@ with st.form(key="car_form"):
 
 # --- Load model ---
 try:
-    model_rf = joblib.load("RandomForest")
+    model_rf = joblib.load("./model/RandomForest")
 except FileNotFoundError:
     st.error("Model file 'RandomForest.joblib' not found. Please ensure it is in the correct directory.")
     st.stop()
@@ -110,7 +110,7 @@ if submit_button:
         input_df = pd.get_dummies(input_df, drop_first=False)
 
         # Load the column names from X_columns.txt
-        with open('X_columns.txt', 'r', encoding='utf-8') as file:
+        with open('./passby/X_columns.txt', 'r', encoding='utf-8') as file:
             expected_columns = [line.strip() for line in file]
 
         # Align the columns of input_df with the expected columns
