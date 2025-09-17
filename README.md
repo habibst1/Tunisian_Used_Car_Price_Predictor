@@ -17,7 +17,7 @@ It allows users to estimate a fair selling or buying price based on the car’s 
 ---
 
 ## ⚙️ How It Works
-
+ 
 1. **Data Collection**  
    - Scrapes used car listings from [automobile.tn](https://www.automobile.tn/fr/occasion).  
    - Extracts fields: *Brand, Model, Kilométrage, Année, Boîte, Carburant, Puissance fiscale, Prix*.  
