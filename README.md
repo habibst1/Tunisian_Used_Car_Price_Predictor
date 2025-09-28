@@ -1,7 +1,7 @@
 # 🚗 Car Price Prediction
 
 An end-to-end **machine learning application** that predicts the prices of used cars in **Tunisia**.  
-It combines **web scraping, preprocessing, model training, and a Streamlit app** to deliver real-time predictions.
+It combines **web scraping, preprocessing, model training, and a Streamlit app** to deliver real-time predictions. 
 
 ---
 
